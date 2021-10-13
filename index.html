@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+        <title>Desafio 01 -  Codelândia</title>
+        <link rel="shortcut icon" type="imagex/png" href="/img/wd.png">
+    </head>
+    <body>
+        <div class="container col-md-12 col-xs-12">
+            <header class="cabecalho">
+                <div class="article">
+                <nav class="nav1">
+                    <span><h3 class="nav">Codelândia</h3></span>
+                    <span><h3 class="nav">blog</h3></span>
+                </nav>
+
+                <div class="busca">
+                    <input type="text" class="text"  placeholder="Pesquisar no blog">
+                    <img src="/img/lupa.svg" alt="lupa">
+                </div>
+
+            </div><br>
+            </header>
+            <br>
+            <div class="bloco1">
+                <nav class="inline">
+                    <h6 class="data"> 02/07/2021</h6>
+                    <img class="heart" src="/img/heart.svg" alt="like">
+                </nav>
+                <article class="texto1">
+                <h2>Agora é oficial: o Windows 11 está vindo</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum vestibulum auctor est. Nam<br>
+                vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </article>
+            </div>
+            <br>
+            <div class="bloco1">
+                <nav class="inline">
+                    <h6 class="data"> 02/07/2021</h6>
+                    <img class="heart" src="/img/heart.svg" alt="like">
+                </nav>
+                <article class="texto1">
+                <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum vestibulum auctor est. Nam<br>
+                vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.Praesent et <br>
+                 auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. <br>
+                  Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+                </article>
+            </div>
+            <div class="bloco1">
+                <nav class="inline">
+                    <h6 class="data"> 02/07/2021</h6>
+                    <img class="heart" src="/img/heart.svg" alt="like">
+                </nav>
+                <article class="texto1">
+                <h2>Tem Firefox novo no pedaço e você vai querer migrar</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum vestibulum auctor est..</p>
+                </article>
+            </div>
+            <div class="bloco1">
+                <nav class="inline">
+                    <h6 class="data"> 02/07/2021</h6>
+                    <img class="heart" src="/img/heart.svg" alt="like">
+                </nav>
+                <article class="texto1">
+                <h2>John McAfee, criador do antivírus McAfee, morre</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum vestibulum auctor est. Nam<br>
+                    vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.Praesent et <br>
+                     auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. <br>
+                      Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+                </article>
+            </div>
+
+        </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 800,
+                reset: true
+            });
+    
+            ScrollReveal().reveal('.bloco1', { delay: 50 });
+            ScrollReveal().reveal('.inline', { delay: 100 });
+            ScrollReveal().reveal('h2', { delay: 150 });
+            ScrollReveal().reveal('p', { delay: 200 });
+    </script>
+    
+
+    </body>
+
+
+</html>
